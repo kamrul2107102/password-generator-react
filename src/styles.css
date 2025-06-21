@@ -1,0 +1,109 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 32px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 24px;
+  color: #222;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.btn-cp {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background-color 0.2s;
+}
+
+.btn-cp:hover {
+  background-color: #0056b3;
+}
+
+.div2 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cursor-poniter {
+  cursor: pointer;
+  width: 100%;
+}
+
+label {
+  margin-left: 8px;
+  color: #555;
+  font-size: 15px;
+}
+
+.inp-tp {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.inp-tp input[type="checkbox"] {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .App {
+    padding: 24px 20px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .input {
+    font-size: 16px;
+  }
+
+  .btn-cp {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
